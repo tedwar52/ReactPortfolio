@@ -1,65 +1,18 @@
-<!-- HTML Bio with CSS -->
-<!DOCTYPE html>
-<html lang="en-us">
+import React from "react";
 
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-
-    <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-
-    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <style>
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-
-<body class="bg-secondary">
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-    </div>
-    </nav>
-    </div>
-
-    <!--This will display 4 separate links to deployed web apps-->
+function Portfolio() {
     <div class="container-fluid">
         <div class="card">
             <div class="row">
                 <div class="col-lg-6 border border-dark">
-                    <h3>Project 1: It's Raining Playlists</h3>
+                <h3>Project 1: It's Raining Playlists</h3>
                     <a href="https://carolinem15.github.io/FirstProject/" class="text-nowrap">
                         <h6>Deployed</h6>
                     </a>
                     <a href="https://github.com/carolinem15/FirstProject">
                         <h6>Github Repository</h6>
                     </a>
-                    <img clas="img-responsive" src="images/rainingplaylists.png">
+                    <img clas="img-responsive" src="images/rainingplaylists.png" />
                 </div>
                 <div class="col-lg-6 border border-dark">
                     <h3>Weather Dashboard</h3>
@@ -69,7 +22,7 @@
                     <a href="https://github.com/tedwar52/Weather-Dashboard">
                         <h6>Github Repository</h6>
                     </a>
-                    <img src="images/weather.png">
+                    <img src="images/weather.png" />
                 </div>
             </div>
             <div class="row">
@@ -81,7 +34,7 @@
                     <a href="https://github.com/tedwar52/Project-2">
                         <h6>Github Repository</h6>
                     </a>
-                    <img src="images/doctor.png">
+                    <img src="images/doctor.png" />
                 </div>
                 <div class="col-lg-6 border border-dark">
                     <h3>Note Taker</h3>
@@ -91,10 +44,9 @@
                     <a href="https://github.com/tedwar52/Note-Taker">
                         <h6>Github Repository</h6>
                     </a>
-                    <img src="images/notes.png">
+                    <img src="images/notes.png" />
                 </div>
-            </div>
-            <div class="row">
+                <div class="row">
                 <div class="col-lg-6 border border-dark">
                     <h3>Eat-Da-Burger</h3>
                     <a href="https://warm-wave-56497.herokuapp.com/">
@@ -103,7 +55,7 @@
                     <a href="https://github.com/tedwar52/Eat-Da-Burger">
                         <h6>Github Repository</h6>
                     </a>
-                    <img src="images/burger.png">
+                    <img src="images/burger.png" />
                 </div>
                 <div class="col-lg-6 border border-dark">
                     <h3>Readme Generator</h3>
@@ -113,12 +65,12 @@
                     <a href="https://github.com/tedwar52/Readme-Generator">
                         <h6>Github Repository</h6>
                     </a>
-                    <img src="images/commandline.png">
+                    <img src="images/commandline.png" />
                 </div>
+            </div>
             </div>
         </div>
     </div>
+}
 
-</body>
-
-</html>
+export default Portfolio;
