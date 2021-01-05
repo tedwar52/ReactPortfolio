@@ -11,6 +11,7 @@ import Portfolio from "./components/pages/portfolio";
 function App() {
   return (
     <HashRouter basename="/reactportfolio">
+      <Router>
       <div>
         <NavBar />
         <Header />
@@ -21,6 +22,7 @@ function App() {
         </Wrapper>
         <Footer />
       </div>
+      </Router>
     </HashRouter>
   )
 }
