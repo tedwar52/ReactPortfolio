@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/ReactPortfolio/static/js/main.daac3e49.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.daac3e49.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.3b164c94.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.3b164c94.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/ReactPortfolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8d3bb817.chunk.js": "/ReactPortfolio/static/js/2.8d3bb817.chunk.js",
+    "static/js/2.8d3bb817.chunk.js.map": "/ReactPortfolio/static/js/2.8d3bb817.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/ReactPortfolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/js/2.8d3bb817.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.8d3bb817.chunk.js.LICENSE.txt",
+    "static/media/burger.png": "/ReactPortfolio/static/media/burger.bb189ddb.png",
+    "static/media/commandline.png": "/ReactPortfolio/static/media/commandline.25d29df6.png",
+    "static/media/doctor.png": "/ReactPortfolio/static/media/doctor.864db4e5.png",
+    "static/media/itsme.jpg": "/ReactPortfolio/static/media/itsme.3ce2f32b.jpg",
+    "static/media/notes.png": "/ReactPortfolio/static/media/notes.00b374f1.png",
+    "static/media/rainingplaylists.png": "/ReactPortfolio/static/media/rainingplaylists.d2e49b37.png",
+    "static/media/weather.png": "/ReactPortfolio/static/media/weather.981d349a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b164c94.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.8d3bb817.chunk.js",
+    "static/js/main.daac3e49.chunk.js"
+  ]
+}
