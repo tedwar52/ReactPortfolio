@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+import { HashRouter as Router, Route} from "react-router-dom";
 import Wrapper from "./components/Wrapper/index";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
@@ -9,7 +10,7 @@ import Portfolio from "./components/pages/portfolio";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/reactportfolio">
       <div>
         <NavBar />
         <Header />
@@ -20,7 +21,7 @@ function App() {
         </Wrapper>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   )
 }
 
