@@ -1,76 +1,31 @@
 import React from "react";
+import Container from "../Container/index";
+import Project from "../Project/index";
+import Col from "../Column/index";
 
 function Portfolio() {
-    <div class="container-fluid">
-        <div class="card">
-            <div class="row">
-                <div class="col-lg-6 border border-dark">
-                <h3>Project 1: It's Raining Playlists</h3>
-                    <a href="https://carolinem15.github.io/FirstProject/" class="text-nowrap">
-                        <h6>Deployed</h6>
-                    </a>
-                    <a href="https://github.com/carolinem15/FirstProject">
-                        <h6>Github Repository</h6>
-                    </a>
-                    <img clas="img-responsive" src="images/rainingplaylists.png" />
-                </div>
-                <div class="col-lg-6 border border-dark">
-                    <h3>Weather Dashboard</h3>
-                    <a href="https://tedwar52.github.io/Weather-Dashboard/">
-                        <h6>Deployed</h6>
-                    </a>
-                    <a href="https://github.com/tedwar52/Weather-Dashboard">
-                        <h6>Github Repository</h6>
-                    </a>
-                    <img src="images/weather.png" />
+    return (
+        <Container>
+            <div className="row">
+                <div class="col-md-6">
+                    <Project title="It's Raining Playlists" link="https://carolinem15.github.io/FirstProject/" image="assets/images/rainingplaylists.png" />
+                    <Project title="Weather Dashboard" link="https://tedwar52.github.io/Weather-Dashboard/" image="assets/images/weather.png" />
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 border border-dark">
-                    <h3>Project 2: Doctor's Connect</h3>
-                    <a href="https://creepy-treat-09091.herokuapp.com/">
-                        <h6>Deployed</h6>
-                    </a>
-                    <a href="https://github.com/tedwar52/Project-2">
-                        <h6>Github Repository</h6>
-                    </a>
-                    <img src="images/doctor.png" />
-                </div>
-                <div class="col-lg-6 border border-dark">
-                    <h3>Note Taker</h3>
-                    <a href="http://blooming-lake-16321.herokuapp.com/">
-                        <h6>Deployed</h6>
-                    </a>
-                    <a href="https://github.com/tedwar52/Note-Taker">
-                        <h6>Github Repository</h6>
-                    </a>
-                    <img src="images/notes.png" />
-                </div>
-                <div class="row">
-                <div class="col-lg-6 border border-dark">
-                    <h3>Eat-Da-Burger</h3>
-                    <a href="https://warm-wave-56497.herokuapp.com/">
-                        <h6>Deployed</h6>
-                    </a>
-                    <a href="https://github.com/tedwar52/Eat-Da-Burger">
-                        <h6>Github Repository</h6>
-                    </a>
-                    <img src="images/burger.png" />
-                </div>
-                <div class="col-lg-6 border border-dark">
-                    <h3>Readme Generator</h3>
-                    <a href="https://drive.google.com/file/d/1PxhD1x1OXDWWZhgPwFaTL3OSBtacoJsQ/view">
-                        <h6>Deployed</h6>
-                    </a>
-                    <a href="https://github.com/tedwar52/Readme-Generator">
-                        <h6>Github Repository</h6>
-                    </a>
-                    <img src="images/commandline.png" />
+            <div className="row">
+                <div class="col-md-6">
+                    <Project title="Doctor's Connect" link="https://github.com/tedwar52/Project-2" image="assets/doctor.png" />
+                    <Project title="Note Taker" link="https://github.com/tedwar52/Note-Taker" image="assets/images/notes.png" />
                 </div>
             </div>
+            <div className="row">
+                <div class="col-md-6">
+                    <Project title="Eat-Da-Burger" link="https://github.com/tedwar52/Eat-Da-Burger" image="assets/images/burger.png" />
+                    <Project title="Readme Generator" link="https://github.com/tedwar52/Readme-Generator" image="assets/images/commandline.png" />
+                </div>
             </div>
-        </div>
-    </div>
+        </Container>
+    );
 }
 
 export default Portfolio;
