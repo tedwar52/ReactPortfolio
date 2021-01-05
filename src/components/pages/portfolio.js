@@ -1,14 +1,13 @@
 import React from "react";
 import Container from "../Container/index";
 import Project from "../Project/index";
-import Col from "../Column/index";
 
 function Portfolio() {
     return (
         <Container>
             <div className="row">
                 <div class="col-md-6">
-                    <Project title="It's Raining Playlists" git="https://github.com/carolinem15/FirstProject" deployed="https://carolinem15.github.io/FirstProject/" image="../assets/images/rainingplaylists.png" />
+                    <Project title="It's Raining Playlists" git="https://github.com/carolinem15/FirstProject" deployed="https://carolinem15.github.io/FirstProject/" image={require("../assets/images/rainingplaylists.png")} />
                     <Project title="Weather Dashboard" git="https://github.com/tedwar52/Weather-Dashboard" deployed="https://tedwar52.github.io/Weather-Dashboard/" image={require("../assets/images/weather.png")} />
                 </div>
             </div>

@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <div>
-            <a href="#">Github</a>
+            <h6>Thank you for looking!</h6>
         </div>
     )
 }

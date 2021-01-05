@@ -4,7 +4,7 @@ const face = require("../assets/images/itsme.jpg");
 function About() {
     return (
         <div class="container-fluid">
-            <img src={face} />
+            <img src={face} alt="Picture of a young woman" />
             <div class="card w-75 bg-secondary">
                 <div class="card-body">
                     <h5 class="card-title">Taylor Edwards</h5>
