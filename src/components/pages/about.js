@@ -1,9 +1,10 @@
 import React from "react";
+const face = require("../assets/images/itsme.jpg");
 
 function About() {
     return (
         <div class="container-fluid">
-            <img src="../assets/images/itsme.png" />
+            <img src={face} />
             <div class="card w-75 bg-secondary">
                 <div class="card-body">
                     <h5 class="card-title">Taylor Edwards</h5>

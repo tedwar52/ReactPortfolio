@@ -8,20 +8,20 @@ function Portfolio() {
         <Container>
             <div className="row">
                 <div class="col-md-6">
-                    <Project title="It's Raining Playlists" link="https://carolinem15.github.io/FirstProject/" image="assets/images/rainingplaylists.png" />
-                    <Project title="Weather Dashboard" link="https://tedwar52.github.io/Weather-Dashboard/" image="assets/images/weather.png" />
+                    <Project title="It's Raining Playlists" git="https://github.com/carolinem15/FirstProject" deployed="https://carolinem15.github.io/FirstProject/" image="../assets/images/rainingplaylists.png" />
+                    <Project title="Weather Dashboard" git="https://github.com/tedwar52/Weather-Dashboard" deployed="https://tedwar52.github.io/Weather-Dashboard/" image={require("../assets/images/weather.png")} />
                 </div>
             </div>
             <div className="row">
                 <div class="col-md-6">
-                    <Project title="Doctor's Connect" link="https://github.com/tedwar52/Project-2" image="assets/doctor.png" />
-                    <Project title="Note Taker" link="https://github.com/tedwar52/Note-Taker" image="assets/images/notes.png" />
+                    <Project title="Doctor's Connect" git="https://github.com/tedwar52/Project-2" deployed="https://creepy-treat-09091.herokuapp.com/" image={require("../assets/images/doctor.png")} />
+                    <Project title="Note Taker" git="https://github.com/tedwar52/Note-Taker" deployed="http://blooming-lake-16321.herokuapp.com/" image={require("../assets/images/notes.png")} />
                 </div>
             </div>
             <div className="row">
                 <div class="col-md-6">
-                    <Project title="Eat-Da-Burger" link="https://github.com/tedwar52/Eat-Da-Burger" image="assets/images/burger.png" />
-                    <Project title="Readme Generator" link="https://github.com/tedwar52/Readme-Generator" image="assets/images/commandline.png" />
+                    <Project title="Eat-Da-Burger" git="https://github.com/tedwar52/Eat-Da-Burger" deployed="https://warm-wave-56497.herokuapp.com/" image={require("../assets/images/burger.png")} />
+                    <Project title="Readme Generator" git="https://github.com/tedwar52/Readme-Generator" deployed="https://drive.google.com/file/d/1PxhD1x1OXDWWZhgPwFaTL3OSBtacoJsQ/view" image={require("../assets/images/commandline.png")} />
                 </div>
             </div>
         </Container>

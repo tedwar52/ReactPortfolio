@@ -4,13 +4,12 @@ import {Link} from 'react-router-dom'; // Import the Link component
 function Project(props) {
   return (
     <div className="project">
-      <Link to={props.link}>
+        <div className="project-title">{props.title}</div>
         <div className="project-image">
           <img src={props.image} alt="Project Image"/>
         </div>
-        <div className="project-title">{props.title}</div>
-        <div className="project-category">""</div>
-      </Link>
+        <a href={props.git} className="project-git">Github Repository</a>
+        <a href={props.deployed} className="project-Deployed">Deployed</a>
     </div>
   );
 }
