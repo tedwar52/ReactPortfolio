@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../Container/index";
+import { Link } from "react-router-dom";
 
 function NavBar() {
     return(
@@ -7,10 +8,10 @@ function NavBar() {
             <div>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" a href="/">Home</a>
+                        <Link to="/" class="nav-link" aria-current="page">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/portfolio">Portfolio</a>
+                        <Link to="/portfolio" class="nav-link">Portfolio</Link>
                     </li>
                 </ul>
             </div>
