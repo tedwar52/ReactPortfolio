@@ -16,8 +16,8 @@ function App() {
         <Header />
         <Wrapper>
           <Route exact path ="/" component={About} />
-          <Route path ="/about" component={About} />
-          <Route path ="/portfolio" component={Portfolio} />
+          <Route path ="/aboutme" component={About} />
+          <Route path ="/projects" component={Portfolio} />
         </Wrapper>
         <Footer />
       </div>
