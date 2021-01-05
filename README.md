@@ -8,9 +8,6 @@ The beginnings of my professional portfolio, created in React.
 
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Contributors](#Guidelines)
-- [Testing](#Testing)
-- [License](#License)
 - [More](#More)
 
 <a name="Installation">**_Installation_**</a>
@@ -24,4 +21,4 @@ The homepage/landing acts as an "About Me" page. Here is a short introduction, a
 <a name="More">**_See more about this_**</a>
 
 [Github link](www.github.com/tedwar52)  
-[Deployed](tedwar52@gmail.com)
+[Deployed](https://tedwar52.github.io/ReactPortfolio/)
